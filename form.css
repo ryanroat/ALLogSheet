@@ -1,0 +1,17 @@
+.bio{
+  padding: 30px;
+}
+
+.bio .form-group{
+  padding-bottom: 15px;
+}
+
+.bio label{
+  display: block;
+  padding-bottom: 10px;
+}
+
+.bio input{
+  padding: 8px;
+  width: 100%;
+}
