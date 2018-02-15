@@ -1,3 +1,11 @@
+/* color palette from coolors
+1: #c4bbaf
+2: #a5978b
+3: #5c4742
+4: #8d5b4c
+5: #5a2a27
+*/
+
 html, body {
   background-color: #8d5b4c;
 }
@@ -17,9 +25,16 @@ html, body {
 }
 
 .bio input[type="text"]{
+  border:none;
   background-color: #c4bbaf;
+  color: #5a2a27;;
   padding: 8px;
   width: 100%;
+}
+.bio input[type="text"]:focus{
+  background-color: #a5978b;
+  outline-color: #c4bbaf;
+
 }
 .bio input[type="submit"]{
   background-color: #5a2a27;
