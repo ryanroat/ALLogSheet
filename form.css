@@ -1,9 +1,14 @@
+html, body {
+  background-color: #8d5b4c;
+}
+
 .bio{
   padding: 30px;
 }
 
 .bio .form-group{
   padding-bottom: 15px;
+  color: #c4bbaf;
 }
 
 .bio label{
@@ -11,7 +16,20 @@
   padding-bottom: 10px;
 }
 
-.bio input{
+.bio input[type="text"]{
+  background-color: #c4bbaf;
   padding: 8px;
   width: 100%;
+}
+.bio input[type="submit"]{
+  background-color: #5a2a27;
+  color: #c4bbaf;
+  padding: 10px 20px;
+  border:none;
+  border-radius: 8px;
+}
+
+.bio input[type="submit"]:hover{
+  background-color: #c4bbaf;
+  color: #5a2a27;
 }
