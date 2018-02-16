@@ -42,7 +42,6 @@ html, body {
 .bio input[type="text"]:focus{
   background-color: #a5978b;
   outline-color: #c4bbaf;
-
 }
 .bio input[type="submit"]{
   outline-style: none;
@@ -51,6 +50,12 @@ html, body {
   padding: 10px 20px;
   border:none;
   border-radius: 8px;
+}
+
+.bio input[type="submit"]:focus{
+  background-color: #a5978b;
+  outline-color: #c4bbaf;
+  color: #5a2a27;
 }
 
 .bio input[type="submit"]:hover{
@@ -103,6 +108,12 @@ html, body {
   padding: 10px 20px;
   border:none;
   border-radius: 8px;
+}
+
+.session-detail input[type="submit"]:focus{
+  background-color: #a5978b;
+  outline-color: #c4bbaf;
+  color: #5a2a27;
 }
 
 .session-detail input[type="submit"]:hover{
