@@ -4,11 +4,11 @@
 3: #5c4742
 4: #8d5b4c
 5: #5a2a27
-*/
 
 html, body {
   
 }
+*/
 
 .char-bio{
   background-color: #8d5b4c;
@@ -45,6 +45,7 @@ html, body {
 
 }
 .bio input[type="submit"]{
+  outline-style: none;
   background-color: #5a2a27;
   color: #c4bbaf;
   padding: 10px 20px;
@@ -53,6 +54,58 @@ html, body {
 }
 
 .bio input[type="submit"]:hover{
+  background-color: #c4bbaf;
+  color: #5a2a27;
+}
+
+.session-detail{
+  padding: 30px;
+}
+
+.session-detail .form-group{
+  padding-bottom: 15px;
+  color: #c4bbaf;
+}
+
+.session-detail label{
+  display: block;
+  padding-bottom: 10px;
+}
+
+.session-detail input[type="text"]{
+  border:none;
+  background-color: #c4bbaf;
+  color: #5a2a27;;
+  padding: 8px;
+  width: 100%;
+}
+.session-detail input[type="text"]:focus{
+  background-color: #a5978b;
+  outline-color: #c4bbaf;
+}
+
+.session-detail input[type="date"]{
+  border:none;
+  background-color: #c4bbaf;
+  color: #5a2a27;;
+  padding: 8px;
+  width: 100%;
+}
+.session-detail input[type="date"]:focus{
+  background-color: #a5978b;
+  outline-color: #c4bbaf;
+}
+
+.session-detail input[type="submit"]{
+  outline-style: none;
+  background-color: #5a2a27;
+  color: #c4bbaf;
+  padding: 10px 20px;
+  border:none;
+  border-radius: 8px;
+}
+
+.session-detail input[type="submit"]:hover{
   background-color: #c4bbaf;
   color: #5a2a27;
 }
